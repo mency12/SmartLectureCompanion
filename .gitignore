@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# API Keys (NEVER commit these!)
+.env
+*.key
+api_key.txt
+*api*.txt
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Audio/Video files (too large for Git)
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.mov
+*.avi
+*.ogg
+*.flac
+
+# Model files (Whisper downloads these)
+*.pt
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+temp_*
+*.tmp
