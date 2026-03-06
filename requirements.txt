@@ -1,0 +1,6 @@
+# Smart Lecture Companion - Dependencies
+# Install with: pip install -r requirements.txt
+
+streamlit>=1.30.0
+openai-whisper
+anthropic>=0.40.0

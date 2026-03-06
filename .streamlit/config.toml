@@ -1,0 +1,17 @@
+# Smart Lecture Companion - Streamlit Configuration
+# This file fixes the AxiosError 403 upload bug
+
+[server]
+# Disable XSRF protection to fix file upload 403 errors
+# This is safe for local development
+enableXsrfProtection = false
+
+# Disable CORS restrictions for local development
+enableCORS = false
+
+# Maximum file upload size in MB (default is 200)
+maxUploadSize = 500
+
+[browser]
+# Optional: disable telemetry
+gatherUsageStats = false
